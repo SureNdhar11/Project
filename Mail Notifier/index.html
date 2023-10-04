@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Management System</title>
+	<link rel="stylesheet" type="text/css" href="sty.css">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+	<nav>
+		<label class="logo">GCE-Erode</label>
+
+		<ul>
+			<li><a href="index.html"><h3>Home</h3></a></li>
+			<li><a href="contact.html"><h3>Contact</h3></a></li>
+			<li><a href="adminlogin.php" class="btn-success">Admin</a></li>
+			<li><a href="loginstu.php" class="btn-success">Login</a></li>
+		</ul>
+	</nav>
+<br>
+<br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img.jpeg" style="width: 1550px;height: 550px;">
+ <!--- <div class="text">Caption Text</div>-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="clg.jpeg" style="width: 1550px;height: 550px;">
+ <!-- <div class="text">Caption Two</div>-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img2.jpeg" style="width: 1550px;height: 550px;">
+ <!--<div class="text">Caption Three</div>-->
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<div class="content">
+<div class="headline"><h3 style="color:#0000CD;"><b><centre>Welcome to Government College of Engineering, Erode (Formerly IRTT)</centre></b></h3></div>
+
+<div class="row">
+						
+	<div class="col-sm-12">
+		<p style="text-align:justify;">The college established in 1984, is a premier Engineering Institute. It was run by All Transport Corporations of Government of TamilNadu and now the Institute is  converted as Government College of Engineering, Erode(GCEE). The Institute is located on a sprawling lush green campus of 200 acres between Chithode and Bhavani in Erode district. It provides a congenial atmosphere for Technical Education. The Institute has excellent infrastructure, well-equipped laboratories, library and highly qualified &amp; experienced faculty members. The Institute is well known for its technical excellence, modern facilities, research activities, good academic performance track record and placements.</p>
+	</div>
+</div>
+</div>
+<center>
+    
+        
+       
+
+	<div class="section1">
+        
+		
+		<!--<label class="img_text"><center>WELCOME TO GOVERNMENT COLLEGE OF ENGINEERING</center></label>
+		<label class="img"><center>(IRTT)</center></label>-->
+		<!--<img class="main_img" src="clg.jpeg">-->
+	</div>
+</center>
+
+
+	
+<script>
+	let slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 5000); // Change image every 2 seconds
+	}
+	</script>
+</body>
+</html>

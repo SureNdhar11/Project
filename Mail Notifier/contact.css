@@ -1,0 +1,19 @@
+body{
+	background-image: url("clg.jpeg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: right top ;
+}
+
+.content{
+	width: 500px;
+	height: 300px;
+	text-align: center; 
+	margin: 0 auto;
+	background-color:lightgray;
+	margin-top: 160px;
+	
+}
+h2{
+    color: rgb(188, 33, 33);
+}

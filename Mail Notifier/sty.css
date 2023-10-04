@@ -1,0 +1,285 @@
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+nav
+{
+	position: fixed;
+	background-color: skyblue;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+}
+
+
+.logo
+{
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 70px;
+}
+
+ul
+{
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+
+ul li 
+{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+
+ul li a 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+
+.main_img
+{
+	width: 100%;
+    height: 700px;
+}
+
+.section1
+{
+	padding-top: 70px;
+}
+
+
+.img_text
+{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	color: white;
+	background-color: midnightblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 35px;
+}
+.img{
+    bottom: 30pc;
+	left: 43pc;
+	position: absolute;
+	color: white;
+	background-color: midnightblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 35px;
+}
+
+.label_text
+{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+.input_deg
+{
+	width: 30%;
+	height: 40px;
+	border-radius: 25px;
+	border: 0.5px solid blue;
+	 
+}
+
+.adm_int
+{
+	padding-top: 10px;
+}
+
+.input_txt
+{
+	width: 30%;
+	height: 120px;
+	border-radius: 25px;
+	border: 1px solid blue;
+}
+
+#submit
+{
+	position: relative;
+	width: 15%;
+	left: 5%;
+}
+
+
+footer
+{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+
+}
+
+
+.footer_text
+{
+	text-align: center;
+	color: white;
+	top: 20%;
+	position: relative;
+}
+
+.adm
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.form_deg
+{
+	padding-top: 200px;
+}
+
+.label_deg
+{
+	display: inline-block;
+	color: skyblue;
+	width: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.login_form
+{
+	background-color: black;
+	width: 400px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.title_deg
+{
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+/*
+.body_deg
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+*/
+.btn-success{
+	padding: 13px 20px;
+	border: none;
+	background-color: #368a3a;
+	color: #fff;
+}
+.btn{
+	padding: 13px 20px;
+	border: none;
+	background-color: #24c0d8;
+	color: #fff;
+}
+/*
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*position: relative;
+  margin: auto;*/
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 4.8s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.row {
+    margin-right: -15px;
+    margin-left:-15px;
+	font-size: medium;
+}
+.headline {
+	text-align: center;
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 3px dotted#FF0074;
+	font-size: large;
+}
+.content{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
